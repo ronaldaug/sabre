@@ -1,0 +1,17 @@
+{
+    "name": "up/sabre",
+    "description": "Composer package for sabre flight booking api",
+    "type": "comopser-plugin",
+    "authors": [
+        {
+            "name": "UP Sabre",
+            "email": "uptravel@pm.me"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Up\\Sabre\\": "src/"
+        }
+    }
+}
